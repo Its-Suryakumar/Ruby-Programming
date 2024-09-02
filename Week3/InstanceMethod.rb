@@ -17,4 +17,3 @@ my_dog = Dog.new("Tommy", "Golden Retriever")
 
 my_dog.fetch("Ball") 
 my_dog.bark
-  
