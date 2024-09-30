@@ -1,0 +1,5 @@
+a = "15"
+b = "10"
+puts "#{a+b}"
+puts "#{a.to_i+b.to_i}"
+puts "#{a.to_f+b.to_f}"

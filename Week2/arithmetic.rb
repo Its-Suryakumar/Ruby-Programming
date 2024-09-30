@@ -1,6 +1,6 @@
 class Arithmetic
     def add
-        a = gets.chomp.to_i
+        a = gets.chomp.to_i 
         b = gets.chomp.to_i
         c = a+b
         puts "A+B = #{c}"
