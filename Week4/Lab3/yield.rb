@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # a method that uses yield
 def greet_with_yield
   puts "Inside the method before the block."
@@ -21,3 +22,12 @@ puts greet_lambda.call("Alice")
 farewell_proc = Proc.new { |name| "Goodbye, #{name} from the proc!" }
 
 puts farewell_proc.call("Bob")
+=======
+def yield_test
+  puts "I'm inside the method."
+  yield
+  puts "I'm also inside the method."
+end
+
+yield_test { puts ">>> Yield Method" }
+>>>>>>> 5fd0631123001f363869f96bfb50eedbddbffc28
